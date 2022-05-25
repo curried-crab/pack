@@ -1,4 +1,9 @@
-import * as lo from "lodash-es";
+import { isArray } from "lodash-es";
 
 const arr = [];
-console.log("哈哈哈哈是", lo.isArray(arr));
+console.log("哈哈哈哈是", isArray(arr));
+
+// import * as test from "./test.ts";
+
+// function a1() {}
+// test.f();
