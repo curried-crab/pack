@@ -3,11 +3,14 @@ import * as path from "path";
 import _ from "lodash"
 import { fileURLToPath } from "url"
 
-const test = require("./test")
+const es = require("lodash-es")
 
 
-console.log("--->", _.isArray([]))
-test.test()
+// const test = require("./test")
+
+
+// console.log("--->", _.isArray([]))
+// test.test()
 
 
 const __filename = fileURLToPath(import.meta.url);
