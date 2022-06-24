@@ -1,13 +1,15 @@
 {
   "scripts": {
     "test:webpack": "webpack --mode=none --config webpack/webpack.config.js",
-    "build:webpack": "webpack --mode=production --config webpack/webpack.config.js"
+    "build:webpack": "webpack --mode=production --config webpack/webpack.config.js",
+    "build:rollup": "rollup  --config rollup/rollup.config.js"
   },
   "dependencies": {
     "@babel/core": "^7.18.5",
     "babel-loader": "^8.2.5",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21",
+    "rollup": "^2.75.7",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
   },
